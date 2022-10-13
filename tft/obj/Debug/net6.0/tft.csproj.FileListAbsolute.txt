@@ -1,0 +1,15 @@
+L:\GIT\tft\tft\bin\Debug\net6.0\tft.exe
+L:\GIT\tft\tft\bin\Debug\net6.0\tft.deps.json
+L:\GIT\tft\tft\bin\Debug\net6.0\tft.runtimeconfig.json
+L:\GIT\tft\tft\bin\Debug\net6.0\tft.dll
+L:\GIT\tft\tft\bin\Debug\net6.0\tft.pdb
+L:\GIT\tft\tft\obj\Debug\net6.0\tft.csproj.AssemblyReference.cache
+L:\GIT\tft\tft\obj\Debug\net6.0\tft.GeneratedMSBuildEditorConfig.editorconfig
+L:\GIT\tft\tft\obj\Debug\net6.0\tft.AssemblyInfoInputs.cache
+L:\GIT\tft\tft\obj\Debug\net6.0\tft.AssemblyInfo.cs
+L:\GIT\tft\tft\obj\Debug\net6.0\tft.csproj.CoreCompileInputs.cache
+L:\GIT\tft\tft\obj\Debug\net6.0\tft.dll
+L:\GIT\tft\tft\obj\Debug\net6.0\refint\tft.dll
+L:\GIT\tft\tft\obj\Debug\net6.0\tft.pdb
+L:\GIT\tft\tft\obj\Debug\net6.0\tft.genruntimeconfig.cache
+L:\GIT\tft\tft\obj\Debug\net6.0\ref\tft.dll
