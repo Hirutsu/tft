@@ -1,0 +1,20 @@
+﻿public enum Cmd 
+{ 
+    JMP, 
+    JZ, 
+    SET, 
+    ADD, 
+    SUB, 
+    MUL, 
+    DIV, 
+    AND, 
+    OR, 
+    CMPE, 
+    CMPNE, 
+    CMPL, 
+    CMPLE, 
+    CMPG, 
+    CMPGE, 
+    OUTPUT, 
+    INPUT 
+}
