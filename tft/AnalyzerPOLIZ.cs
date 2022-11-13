@@ -39,13 +39,13 @@ public class AnalyzerPOLIZ
 
 		if (!IsCondition()) return false;
 
+		var indJmpExit = WriteCmdPtr(-1);
+		WriteCmd(Cmd.JZ);
+
 		while (IsStatement()) ;
 
 		if (_lexemeEnumerator.Current == null || _lexemeEnumerator.Current.Type != LexemeType.Loop) { ErrorType.Error("Ожидается loop", _lexemeList.IndexOf(_lexemeEnumerator.Current)); }
 		_lexemeEnumerator.MoveNext();
-
-		var indJmpExit = WriteCmdPtr(-1);
-		WriteCmd(Cmd.JZ);
 
 		WriteCmdPtr(indFirst);
 		var indLast = WriteCmd(Cmd.JMP);
