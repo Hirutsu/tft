@@ -31,7 +31,6 @@ public class SyntaxAnalyzer
 		_lexemeEnumerator.MoveNext();
 
 		if (!IsCondition()) return false;
-		//_lexemeEnumerator.MoveNext();
 
 		while (IsStatement()) ;
 

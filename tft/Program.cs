@@ -7,7 +7,7 @@ const string codeTask1 = "do while a < 5 a = a + b + c + 2 loop";
 
 List<string> codeTask2 = new()
 {
-    "do while a < b",
+    "do while a < b and b > c",
     "e = 6 + g",
     "z = x - 14",
     "output e",
@@ -62,8 +62,7 @@ void Task3()
         Console.WriteLine(result ? "Все прошло успешно" : "Неподходящая конструкция");
         foreach (var entry in entryList)
         {
-            if (entry.EntryType == EntryType.Var) FormatOut(entry.Value);
-            else if (entry.EntryType == EntryType.Const) FormatOut(entry.Value);
+            if (entry.EntryType is EntryType.Var or EntryType.Const) FormatOut(entry.Value);
             else if (entry.EntryType == EntryType.Cmd) FormatOut(entry.Cmd.ToString());
             else if (entry.EntryType == EntryType.CmdPtr) FormatOut($"{entry.CmdPtr}");
         }
